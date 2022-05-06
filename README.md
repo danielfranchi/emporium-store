@@ -1,67 +1,63 @@
-# Beer Emporium Administrator
+# Emporium Store
+ 
+### :rocket: Projeto desenvolvido em React, com Redux e TypeScript, usando uma API desenvolvida em Nest.Js.
 
-## Project Description
+## :wrench: Pré-requisitos
 
-Beer Emporium Administrator is a website made in React, to manage users and products. Users are divided into two levels, (admin) who have full access to the site, being able to register new products, how to remove also, and register users with their access level. Users (editor) have more restricted access, not being able to access and register users, such as removing products, only being able to register new products.
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina.
 
-### Login
-Use these users to login to the site:
+- [Git](https://git-scm.com) - Clonar o projeto
+- [Node.js](https://nodejs.org/en/) - Instalar as dependências
+- [VSCode](https://code.visualstudio.com/) - Visualizar o código
 
-#### Login administrador
 
-email: helen@facebook.com | senha: 123123
+Para melhor visibilidade do estato global no Redux, instale a extensão Redux DevTools no navegador, e via terminal no projeto 
 
-#### Login editor
+- [Redux DevTools](http://bit.ly/ctt-redux-dev-tools) - Extensão navegador
 
-email: mauricio@google.com | senha: 123123
-
-* Challenge description: [https://gist.github.com/jenicarvalho/1cc50b46f853be12be660b429ce487a4](https://gist.github.com/jenicarvalho/1cc50b46f853be12be660b429ce487a4)
-
-## Getting started
-
-### Prerequisites
-
-Before you begin, you will need to have the following tools installed on your machine:
-[Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
-In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/).
-
-### 🎲 Running the Backend (API)
-
-```bash
-# Clone this repository
-$ git clone https://github.com/danielfranchi/abinbev-projeto
-
-# Access the project folder in the terminal/cmd
-$ cd abinbev-projeto
-
-# Go to the folder api
-$ cd api
-
-# Install the dependencies
-$ npm install
-
-# Run the application in development mode
-$ json-server db.json -m ./node_modules/json-server-auth -r routes.json --port 4000
-
-# The server will start at the port:4000 - access <http://localhost:4000>
+```
+# Redux DevTools via terminal
+$ npm install redux-devtools-extension
 ```
 
-### :computer: Running the Front-End (React)
+### :cloud: Deploy da aplicação no Netlify
+
+:point_right:  [https://mystifying-neumann-a0e265.netlify.app/](https://mystifying-neumann-a0e265.netlify.app/)
+
+### 🎲 Executando o back-end (API)
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/danielfranchi/abinbev-projeto
+# Clone o repositório
+$ https://github.com/danielfranchi/api-rest-emporium-store
 
-# Access the project folder in the terminal/cmd
-$ cd abinbev-projeto
+# Acesse a pasta do projeto no terminal/cmd 
+$ cd api-rest-emporium-store
 
-# Install the dependencies
-$ npm install
+# Instale as dependências
+$ yarn install
 
-# Run the application in development mode
-$ npm start
+# Execute a api
+$ yarn start:dev
 
-# The server will start at the port:3000 - access <http://localhost:3000>
+# O servidor iniciará na porta:3001 - acesse <http://localhost:3000>
+```
+
+### :computer: Executando o Front-End (React)
+
+```bash
+# Clone o repositório
+$ https://github.com/danielfranchi/emporium-store
+
+# Acesse a pasta do projeto no terminal/cmd 
+$ cd emporium-store
+
+# Instale as dependências
+$ yarn install
+
+# Execute o aplicativo
+$ yarn start
+
+# O servidor irá iniciar na porta: 3000 - access <http://localhost:3001>
 ```
 
 ## 🛠 Tecnologias
