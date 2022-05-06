@@ -35,7 +35,8 @@ $ yarn install
 # Execute a api
 $ yarn start:dev
 
-# O servidor iniciará na porta:3001 - acesse <http://localhost:3000>
+# Acesse o Swagger na porta:3001
+$ http://localhost:3001
 ```
 
 ```bash
@@ -59,14 +60,15 @@ $ yarn install
 # Execute o aplicativo
 $ yarn start
 
-# O servidor irá iniciar na porta: 3000 - access <http://localhost:3001>
+# O servidor irá iniciar na porta: 3000
+$ http://localhost:3000
 ```
 
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Redux](https://react-redux.js.org/)
+- [Nest.js](https://docs.nestjs.com/)
