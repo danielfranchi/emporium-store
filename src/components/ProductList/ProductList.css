@@ -1,0 +1,68 @@
+.beers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  flex-direction: row;
+}
+
+.beer {
+  background: white;
+  width: 300px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 5px;
+}
+
+.beer img {
+  max-height: 200px;
+}
+
+.beer h3 {
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.beer span {
+  display: block;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.beer small {
+  color: #888;
+}
+
+.beer button {
+  border: none;
+  background: white;
+  color: #5f9ea0;
+  font-size: 15px;
+  font-weight: bold;
+  outline-style: none;
+}
+
+.buyTag {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buyTag input {
+  width: 5rem;
+  height: 1.3rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  text-align: center;
+}
+
+.home {
+  padding: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
