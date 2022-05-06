@@ -20,10 +20,6 @@ Para melhor visibilidade do estato global no Redux, instale a extensão Redux De
 $ npm install redux-devtools-extension
 ```
 
-### :cloud: Deploy da aplicação no Netlify
-
-:point_right:  [https://mystifying-neumann-a0e265.netlify.app/](https://mystifying-neumann-a0e265.netlify.app/)
-
 ### 🎲 Executando o back-end (API)
 
 ```bash
@@ -40,6 +36,12 @@ $ yarn install
 $ yarn start:dev
 
 # O servidor iniciará na porta:3001 - acesse <http://localhost:3000>
+```
+
+```bash
+# Login usuário
+$ email: user@gmail.com
+$ senha: 1234
 ```
 
 ### :computer: Executando o Front-End (React)
